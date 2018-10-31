@@ -66,6 +66,7 @@ bindkey "^p" vim_fzf
 
 #git
 alias gc='git commit -m'
+alias ga='git add'
 alias gs='git status'
 alias gp='git push'
 alias gd='git diff'
