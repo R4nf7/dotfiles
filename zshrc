@@ -79,6 +79,8 @@ c() {
 	}
 alias cd="c"
 
+alias md='mdless'
+
 
 #
 # Git configs
