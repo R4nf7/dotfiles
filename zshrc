@@ -86,19 +86,6 @@ function git_prepare() {
 zle -N git_prepare
 bindkey "^g" git_prepare
 
-#
-# Change directory, clear and show new folder contents
-#
-
-c() {
-    clear;
-    echo '';
-		cd $1;
-		lls;
-    echo '';
-	}
-alias cd="c"
-
 alias md='mdless'
 
 
