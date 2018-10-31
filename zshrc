@@ -9,7 +9,14 @@ PROMPT='$(gbt $?)'
 #
 # GBT
 #
+export GBT_CARS='Status, Os, Hostname, Dir, Git, Custom, Sign'
+export GBT_SHELL='zsh'
+export GBT_CAR_CUSTOM_WRAP='1'
 
+# status
+export GBT_CAR_STATUS_BG='default'
+export GBT_CAR_STATUS_FG='red'
+export GBT_CAR_STATUS_ERROR_TEXT='✘'
 # OS
 export GBT_CAR_OS_BG='default'
 export GBT_CAR_OS_SEP=''
@@ -30,6 +37,10 @@ export GBT_CAR_GIT_CLEAN_FG='green'
 export GBT_CAR_GIT_DIRTY_FG='red'
 # sign
 export GBT_CAR_SIGN_SEP=''
+# newline
+export GBT_CAR_CUSTOM_TEXT_TEXT=''
+export GBT_CAR_CUSTOM_BG='default'
+export GBT_CAR_CUSTOM_SEP=''
 
 
 #
