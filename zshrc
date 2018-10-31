@@ -10,21 +10,26 @@ PROMPT='$(gbt $?)'
 # GBT
 #
 
+# OS
+export GBT_CAR_OS_BG='default'
+export GBT_CAR_OS_SEP=''
 # hostname
 export GBT_CAR_HOSTNAME_BG='default'
 export GBT_CAR_HOSTNAME_FORMAT='{{ User }} '
-export GBT_CAR_HOSTNAME_SEP='⟫ '
-# OS
-export GBT_CAR_OS_BG='default'
-export GBT_CAR_OS_SEP=' '
+export GBT_CAR_HOSTNAME_SEP=' '
 # dir
-export GBT_CAR_DIR_SEP=' '
-export GBT_CAR_DIR_BG='88'
+export GBT_CAR_DIR_SEP='⟫'
+export GBT_CAR_DIR_BG='default'
+export GBT_CAR_DIR_FG='7'
 #git
-export GBT_CAR_GIT_BG='blue'
-export GBT_CAR_GIT_BG='blue'
+export GBT_CAR_GIT_BG='default'
+export GBT_CAR_GIT_FG='4'
 export GBT_CAR_GIT_FORMAT=' {{ Icon }} {{ Head }} {{ Status }}{{ Ahead }}{{ Behind }} '
-
+export GBT_CAR_GIT_SEP='⟫'
+export GBT_CAR_GIT_CLEAN_FG='green'
+export GBT_CAR_GIT_DIRTY_FG='red'
+# sign
+export GBT_CAR_SIGN_SEP=''
 
 
 #
