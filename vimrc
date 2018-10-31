@@ -15,6 +15,10 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'othree/html5.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'ap/vim-css-color'
+Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'mattn/emmet-vim'
+Plugin 'lumiliet/vim-twig'
+
 
 
 " All of your Plugins must be added before the following line
@@ -38,6 +42,49 @@ set incsearch
 set hlsearch
 set wildmode=longest,list,full
 set wildmenu
+
+" Random settings
+set background=light
+set synmaxcol=400
+set nohlsearch
+set cursorline
+set colorcolumn=
+set t_Co=256
+set nospell
+set laststatus=2
+set showtabline=2
+set ttyfast
+set showcmd
+set noshowmode
+set ruler
+set noerrorbells
+set undofile
+set undodir=/tmp/vim-undodir " mkdir /tmp/vim-undodir
+set textwidth=0
+set backspace=indent,eol,start
+set complete=.,w,b,u,t,i
+set completeopt=longest,menuone,preview
+set omnifunc=syntaxcomplete#Complete
+set showmatch
+set matchtime=5
+set tabstop=2
+set shiftwidth=2
+set smarttab
+set softtabstop=2
+set expandtab
+set autoindent
+set cindent
+set cinoptions=:s,ps,ts,cs
+set cinwords=if,else,while,do,for,switch,case
+set modeline
+set modelines=5
+set autowrite
+set autoread
+set backup
+set backupdir=~/.vim-tmp,~/.tmp,/var/tmp,/tmp
+set backupskip=/tmp/*,/private/tmp/*
+set writebackup
+set shell=zsh
 
 
 " hybrid line numbers
