@@ -99,7 +99,7 @@ function custom_cd() {
   lls &&
   echo "\n";
 }
-alias c=custom_cd
+alias cd=custom_cd
 
 
 #
