@@ -88,7 +88,18 @@ function git_prepare() {
 zle -N git_prepare
 bindkey "^g" git_prepare
 
+# Misc
 alias md='mdless'
+
+# Custom cd
+
+function custom_cd() {
+  builtin cd $1 && clear &&
+  echo "\n" &&
+  lls &&
+  echo "\n";
+}
+alias c=custom_cd
 
 
 #
