@@ -69,6 +69,7 @@ alias gc='git commit -m'
 alias ga='git add'
 alias gs='git status'
 alias gp='git push'
+alias gps='git push origin develop:staging'
 alias gd='git diff'
 alias gch='git checkout'
 
