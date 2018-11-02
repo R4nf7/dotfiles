@@ -46,7 +46,6 @@ set wildmenu
 " Random settings
 set background=light
 set synmaxcol=400
-set nohlsearch
 set cursorline
 set colorcolumn=
 set t_Co=256
