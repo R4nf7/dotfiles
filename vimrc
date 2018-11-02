@@ -19,6 +19,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'lumiliet/vim-twig'
 Bundle 'sickill/vim-pasta'
+Plugin 'airblade/vim-gitgutter'
 
 
 
