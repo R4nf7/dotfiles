@@ -1,3 +1,6 @@
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+[ -f /Users/PhilippRanft/.config/cani/completions/_cani.zsh ] && source /Users/PhilippRanft/.config/cani/completions/_cani.zsh
+
 #
 # Misc
 #
