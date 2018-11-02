@@ -18,6 +18,8 @@ Plugin 'ap/vim-css-color'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'lumiliet/vim-twig'
+Bundle 'sickill/vim-pasta'
+
 
 
 
