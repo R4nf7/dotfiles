@@ -91,12 +91,6 @@ set shell=zsh
 " hybrid line numbers
 set number relativenumber
 
-augroup numbertoggle
-  autocmd!
-  autocmd BufEnter,FocusGained,InsertLeave * set norelativenumber
-  autocmd BufLeave,FocusLost,InsertEnter   * set relativenumber
-augroup END
-
 " CtrlP settings
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
