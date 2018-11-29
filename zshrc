@@ -86,7 +86,11 @@ function git_prepare() {
 zle -N git_prepare
 bindkey "^g" git_prepare
 
+# Markdown
 alias md='mdless'
+
+# Electron
+alias electron='./node_modules/.bin/electron'
 
 #
 # Git configs
