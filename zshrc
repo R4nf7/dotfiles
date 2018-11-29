@@ -3,7 +3,6 @@
 #
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 PROMPT='$(gbt $?)'
 
 #
@@ -88,7 +87,6 @@ zle -N git_prepare
 bindkey "^g" git_prepare
 
 alias md='mdless'
-
 
 #
 # Git configs
