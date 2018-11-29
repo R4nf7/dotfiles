@@ -8,7 +8,6 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'ntpeters/vim-better-whitespace'
@@ -19,8 +18,8 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'lumiliet/vim-twig'
 Plugin 'vim-ruby/vim-ruby'
-
-
+Bundle 'sickill/vim-pasta'
+Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -47,7 +46,6 @@ set wildmenu
 " Random settings
 set background=light
 set synmaxcol=400
-set nohlsearch
 set cursorline
 set colorcolumn=
 set t_Co=256
@@ -90,12 +88,6 @@ set shell=zsh
 
 " hybrid line numbers
 set number relativenumber
-
-augroup numbertoggle
-  autocmd!
-  autocmd BufEnter,FocusGained,InsertLeave * set norelativenumber
-  autocmd BufLeave,FocusLost,InsertEnter   * set relativenumber
-augroup END
 
 " CtrlP settings
 let g:ctrlp_match_window = 'bottom,order:ttb'

@@ -1,3 +1,6 @@
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+[ -f /Users/PhilippRanft/.config/cani/completions/_cani.zsh ] && source /Users/PhilippRanft/.config/cani/completions/_cani.zsh
+
 #
 # Misc
 #
@@ -68,6 +71,7 @@ alias gc='git commit -m'
 alias ga='git add'
 alias gs='git status'
 alias gp='git push'
+alias gps='git push origin develop:staging'
 alias gd='git diff'
 alias gch='git checkout'
 
@@ -86,11 +90,21 @@ function git_prepare() {
 zle -N git_prepare
 bindkey "^g" git_prepare
 
-# Markdown
+# Misc
 alias md='mdless'
 
 # Electron
 alias electron='./node_modules/.bin/electron'
+
+# Custom cd
+
+function custom_cd() {
+  builtin cd $1 && clear &&
+  echo "\n" &&
+  lls &&
+  echo "\n";
+}
+alias cd=custom_cd
 
 #
 # Git configs
