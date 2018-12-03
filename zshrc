@@ -51,6 +51,7 @@ export GBT_CAR_CUSTOM_SEP=''
 
 #docker
 alias dc='docker-compose'
+alias dbexport='docker-compose exec web dbexport'
 
 #exa
 alias lls='exa'
