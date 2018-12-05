@@ -6,7 +6,11 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 #
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-PROMPT='$(gbt $?)'
+
+# Prompt
+autoload -U promptinit
+promptinit
+setopt PROMPT_SUBST
 
 #
 # GBT
@@ -129,3 +133,6 @@ git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 
 # fasd
 eval "$(fasd --init auto)"
+
+
+# Use GBT
