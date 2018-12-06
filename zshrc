@@ -149,3 +149,4 @@ eval "$(fasd --init auto)"
 
 
 # Use GBT
+PROMPT='$(gbt $?)'
