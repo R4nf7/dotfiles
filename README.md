@@ -6,6 +6,7 @@
 git clone https://github.com/R4nf7/dotfiles.git ~/dotfiles
 echo "source ~/dotfiles/zshrc" >> ~/.zshrc
 echo "source ~/dotfiles/vimrc" >> ~/.vimrc
+echo "source ~/dotfiles/tmux.conf" >> ~/.tmux.conf
 ```
 
 ## Featuring
@@ -17,3 +18,4 @@ echo "source ~/dotfiles/vimrc" >> ~/.vimrc
 - [CanI?](https://rubygems.org/gems/cani)
 - [Mdless](https://rubygems.org/gems/mdless)
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+- [tmux](https://github.com/tmux/tmux)
