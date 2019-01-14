@@ -1068,14 +1068,16 @@
 			<real>30</real>
 			<key>Bold Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.95294117647058818</real>
+				<real>0.86199951171875</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.93333333333333335</real>
+				<real>0.77828022930771124</real>
 				<key>Red Component</key>
-				<real>0.90196078431372551</real>
+				<real>0.64432937745004892</real>
 			</dict>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -1141,13 +1143,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.33333333333333331</real>
+				<real>0.6259765625</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.29803921568627451</real>
+				<real>0.50973136885522763</real>
 				<key>Red Component</key>
-				<real>0.23529411764705882</real>
+				<real>0.25043456256389618</real>
 			</dict>
 			<key>Guid</key>
 			<string>AD8C57DD-A1A0-4214-807A-FF0529C4E256</string>
@@ -1447,17 +1449,19 @@
 			</dict>
 			<key>Link Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.89803921568627454</real>
+				<real>0.3067015874172177</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.68627450980392157</real>
+				<real>0.443817138671875</real>
 				<key>Red Component</key>
-				<real>0.51372549019607838</real>
+				<real>0.22182053187862039</real>
 			</dict>
 			<key>Minimum Contrast</key>
-			<real>0.25490500710227271</real>
+			<real>0.0</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -1541,10 +1545,12 @@
 			<true/>
 			<key>Use Non-ASCII Font</key>
 			<false/>
+			<key>Use Tab Color</key>
+			<true/>
 			<key>Use Underline Color</key>
 			<false/>
 			<key>Vertical Spacing</key>
-			<real>1</real>
+			<real>1.2585419804216869</real>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
