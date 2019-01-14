@@ -1,6 +1,11 @@
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 [ -f /Users/PhilippRanft/.config/cani/completions/_cani.zsh ] && source /Users/PhilippRanft/.config/cani/completions/_cani.zsh
 
+# Source zim
+if [[ -s ${ZDOTDIR:-${HOME}}/.zim/init.zsh ]]; then
+   source ${ZDOTDIR:-${HOME}}/.zim/init.zsh
+fi
+
 #
 # Misc
 #
