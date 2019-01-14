@@ -6,6 +6,13 @@ if [[ -s ${ZDOTDIR:-${HOME}}/.zim/init.zsh ]]; then
    source ${ZDOTDIR:-${HOME}}/.zim/init.zsh
 fi
 
+# launch tmux session
+if [ -z "$TMUX" ]
+then
+    tmux attach -t TMUX || tmux new -s TMUX
+fi
+
+
 #
 # Misc
 #
@@ -122,6 +129,7 @@ alias electron='./node_modules/.bin/electron'
 # tmux
 
 alias tls='tmux ls'
+alias tra="tmux attach -t"
 
 # Custom cd
 
