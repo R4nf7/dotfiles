@@ -832,9 +832,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1036 377 606 469 0 0 2560 1418 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>257 576 796 486 0 0 2560 1418 </string>
+	<string>676 631 796 486 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>790 298 1536 890 0 0 2560 1418 </string>
+	<string>995 495 570 429 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>1 94 570 423 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1134,6 +1134,8 @@
 			<string>No</string>
 			<key>Description</key>
 			<string>Default</string>
+			<key>Disable Smcup Rmcup</key>
+			<true/>
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Flashing Bell</key>
@@ -1516,6 +1518,8 @@
 			<true/>
 			<key>Smart Cursor Color</key>
 			<false/>
+			<key>Space</key>
+			<integer>0</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tab Color</key>
@@ -1554,7 +1558,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>11</integer>
+			<integer>12</integer>
 			<key>Working Directory</key>
 			<string>/Users/PhilippRanft</string>
 		</dict>
@@ -2188,7 +2192,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -2249,7 +2253,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>11</integer>
+			<integer>12</integer>
 			<key>Working Directory</key>
 			<string>/Users/PhilippRanft</string>
 		</dict>
@@ -2998,6 +3002,8 @@
 		<string>000</string>
 	</array>
 	<key>OpenArrangementAtStartup</key>
+	<false/>
+	<key>OpenBookmark</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
 	<false/>
