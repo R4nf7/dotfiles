@@ -20,6 +20,7 @@ Plugin 'lumiliet/vim-twig'
 Plugin 'vim-ruby/vim-ruby'
 Bundle 'sickill/vim-pasta'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'anned20/vimsence'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
