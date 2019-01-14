@@ -114,6 +114,10 @@ alias md='mdless'
 # Electron
 alias electron='./node_modules/.bin/electron'
 
+# tmux
+
+alias tls='tmux ls'
+
 # Custom cd
 
 function custom_cd() {
