@@ -70,7 +70,7 @@ function get_size_format(){
   esac
 }
 
-mem_view_tmpl=$(get_tmux_option "@sysstat_mem_view_tmpl" '#{mem.pused}#[default]')
+mem_view_tmpl=$(get_tmux_option "@sysstat_mem_view_tmpl" '#{mem.pused}')
 
 mem_medium_threshold=$(get_tmux_option "@sysstat_mem_medium_threshold" "75")
 mem_stress_threshold=$(get_tmux_option "@sysstat_mem_stress_threshold" "90")
