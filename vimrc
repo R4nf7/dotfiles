@@ -21,11 +21,14 @@ Plugin 'vim-ruby/vim-ruby'
 Bundle 'sickill/vim-pasta'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'anned20/vimsence'
+Plugin 'luochen1990/rainbow'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
+
+let g:rainbow_active = 1
 
 syntax enable
 
