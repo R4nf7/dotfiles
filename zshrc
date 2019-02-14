@@ -161,10 +161,11 @@ git config --global color.diff.whitespace "red reverse"
 #use diff-so-fancyt diff
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 
-
 # fasd
 eval "$(fasd --init auto)"
 
-
 # Use GBT
 PROMPT='$(gbt $?)'
+
+# load rbenv
+eval "$(rbenv init -)"
