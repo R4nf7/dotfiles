@@ -20,6 +20,7 @@ Bundle 'sickill/vim-pasta'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'anned20/vimsence'
 Plugin 'luochen1990/rainbow'
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -99,8 +100,10 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 " Make it faster!
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
-" Statusline theme
+" NERDTree bind
+map <C-t> :NERDTreeToggle<CR>
 
+" Statusline theme
 au InsertEnter * hi statusline guifg=black guibg=#d7afff ctermfg=black ctermbg=magenta
 au InsertLeave * hi statusline guifg=black guibg=#8fbfdc ctermfg=black ctermbg=72
 hi statusline guifg=black guibg=#8fbfdc ctermfg=black ctermbg=72
