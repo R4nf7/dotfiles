@@ -19,6 +19,8 @@ fi
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 DISABLE_AUTO_TITLE="true"
+export EDITOR='vim'
+
 
 # History
 HISTFILE=~/.zsh_history
