@@ -21,6 +21,7 @@ export LANG=en_US.UTF-8
 DISABLE_AUTO_TITLE="true"
 export EDITOR='vim'
 source ~/.bin/tmuxinator.zsh
+alias vim="nvim"
 
 # History
 HISTFILE=~/.zsh_history
